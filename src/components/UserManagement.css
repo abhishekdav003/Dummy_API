@@ -1,0 +1,86 @@
+.user-management {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+    visibility: visible;
+      display: block;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.user-list {
+  margin-bottom: 30px;
+}
+
+.user-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.user-card h3 {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.user-card p {
+  margin: 0;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.add-user,
+.edit-user {
+  margin-bottom: 30px;
+}
+
+.add-user input,
+.edit-user input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.add-user button,
+.edit-user button {
+  margin-top: 10px;
+  background-color: #28a745;
+}
+
+.add-user button:hover,
+.edit-user button:hover {
+  background-color: #218838;
+}
+.toggle-users-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-users-btn:hover {
+  background-color: #0056b3;
+}
